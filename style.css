@@ -1,0 +1,75 @@
+body {
+  background-color:white;
+  font-family: "Verdana", sans-serif;
+}
+p,h3,td,th{
+  color:#fff
+}
+
+#bar {
+  background-color: rgb(252, 85, 85);
+}
+
+#nbMatch {
+  text-align: center;
+  color: rgb(44, 44, 44);
+}
+
+#start {
+  color: white;
+  background-color: rgb(10, 94, 172);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  padding: 8px 20px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: auto;
+  margin-left: 30px;
+  margin-right: auto;
+  max-width: 10%;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#game {
+  background-color:rgb(44, 44, 44);
+  color:white;
+}
+
+#fight {
+  text-align: center;
+}
+
+#myScore, #enemyScore {
+  margin-left: 3%;
+}
+
+#myteam, #enemies {
+  text-align: center;
+}
+
+button {
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 30px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
